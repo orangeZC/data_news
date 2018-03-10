@@ -8,10 +8,10 @@ from create_id import create_id
 
 def netease_data_news():
     conn = pymysql.connect(
-        host='111.230.149.22',
+        host='0.0.0.0',
         port=3306,
-        user='root',
-        password='liu3226677',
+        user='username',
+        password='password',
         db='data_news',
         charset='utf8'
     )
